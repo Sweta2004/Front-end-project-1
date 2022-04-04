@@ -1,0 +1,149 @@
+body {
+    background-image: url("../Images/template.jpg");
+    background color: black; 
+    height:500px;/* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat:repeat;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color: #90D0C2; /* color of sentences in p tag*/
+    font-size: 20px;
+    font-family: 'Black Ops One', cursive;
+    overflow:hidden;
+  }
+  #content{
+    /*border: 3px solid #90D0C2;*/ /*"solid" is must*/
+    margin-left: 650px ;
+    width: 22vw;
+    height: 70vh;
+    position: absolute;
+    top: 7vh;
+    left: 6vw;
+    padding-left: 1cm;
+    
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+  
+  #heading{
+    margin-left: 0.7cm;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  #user{
+    
+    margin-left: 50px;
+    padding: 5px 10px 5px 10px;
+    
+  }
+  #username{
+    margin-bottom: 0.5cm;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    border: 2px solid #f6f8f5;
+    width: 200px;
+    height:2px;
+    
+    box-shadow: 0 0 10px #c0b1d2;
+  }
+
+  #pass{
+    margin-bottom: 0.5cm;
+    margin-left: 50px;
+    padding: 5px 10px 5px 10px;
+  }
+  #password{
+    margin-bottom: 1cm;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    border: 2px solid #f6f8f5;
+    width: 200px;
+    height:2px;
+    box-shadow: 0 0 10px #c0b1d2;
+  }
+  #button{
+    margin-bottom: 50px;
+    padding: 4px 4px 4px 4px;
+    margin-left: 65px;
+    background: #90D0C2;
+    font-family: 'Black Ops One', cursive;
+    color: white;
+    border-style: outset;
+    border-color: #90D0C2;
+    height: 50px;
+    width: 100px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+    
+  }
+  #button:hover {
+    background-color:red; /* Red */
+    color: white;
+  }
+  #design{
+    color: white;
+  }
+  #software{
+      font-family:markscript;
+      font-weight: bold; 
+      background-color: #150040; 
+      background-image:linear-gradient(145deg,#2a5cd8, #e428c4);
+      background-repeat: repeat; 
+      background-size:100%; 
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      font-style: italic;
+      -moz-background-clip: text;
+      -moz-text-fill-color:transparent;
+  }
+  
+  img {
+    
+    margin-left: 0.7cm;
+    width: 15%;
+    height: 19%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+@media screen and (max-width:1200px)  {
+  #content{
+    text-align:left;
+    margin-left: 50px ;
+    border-color:solid white ;
+    border-radius: 1cm;
+    box-shadow:none;
+    background: transparent;
+    border-radius: 0px;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  }
+
+  #body{
+    width: 100%;
+    background: black;
+    background-size: cover;
+    overflow:hidden;
+    height: 100%;
+    
+  }
+  #design{
+    color: white;
+  }
+  img{
+    float:right;
+    width: 15%;
+    height: 15%;
+   }
+  }
+@media screen and (max-width:800px){
+  img{
+    float:right;
+    width: 20%;
+    height: 20%;
+   }
+}
+
